@@ -389,7 +389,7 @@ public class IoTMqttFragment extends Fragment {
                     return;
                 mForward = new Control();
                 mForward.setTimestamp(System.currentTimeMillis());
-                mForward.setAcceleration(0.1);
+                mForward.setAcceleration(0.3);
                 mForward.setSpeed(5.0);
                 mForward.setType(11);
                 mForward.setWheel_angle(0.0);
@@ -406,8 +406,8 @@ public class IoTMqttFragment extends Fragment {
                     return;
                 mBackward = new Control();
                 mBackward.setTimestamp(System.currentTimeMillis());
-                mBackward.setAcceleration(0.1);
-                mBackward.setSpeed(-5.0);
+                mBackward.setAcceleration(0.3);
+                mBackward.setSpeed(-3.0);
                 mBackward.setType(11);
                 mBackward.setWheel_angle(0.0);
 
